@@ -1,4 +1,15 @@
-title: Tools Used for Promise Unit Testing
+title: Promise Unit Testing
 plan:
-- title: Promise Unit Testing
-  statement: statement.md
+- title: Introduction
+  statement: docs/introduction.md
+- title: What are those Tools?
+  statement: docs/tools.md
+- title: Simple Unit Testing
+  statement: docs/simple.md
+- title: Async.js Unit Testing
+  statement: docs/async.md
+
+projects:
+  snippets:
+    root: /snippets
+    runner: techio/node-npm-runner
