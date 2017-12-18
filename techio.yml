@@ -1,4 +1,4 @@
-title: Simple Node.js Template
+title: Tools Used for Promise Unit Testing
 plan:
-- title: Node.js Snippet
+- title: Promise Unit Testing
   statement: statement.md
