@@ -1,6 +1,8 @@
 ## MochaJs
 [Mocha](https://mochajs.org/) is a JavaScript test framework running on node.js, featuring browser support, asynchronous testing, test coverage reports, and use of any assertion library. It can be used with libraires like should.js, expect.js and chai.js.
 
+@[Simple Promises Code Example]({"stubs":["mocha.js"], "command":"node mocha.js", "project":"snippets"})
+
 This gives basic methods to write test cases.
 
 ## ChaiJs
