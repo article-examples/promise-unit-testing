@@ -10,6 +10,8 @@ describe('Basic Testing', () => {
             expect(basicFile).to.be.an('object');
             expect(typeof basicFile.basic).to.equal('function');
         });
+
+        // You can add more basic Test Cases.
     });
 
     describe('Error Case', () => {
@@ -18,6 +20,8 @@ describe('Basic Testing', () => {
                 expect('Failure').to.equal(errorMessage);
             });
         });
+
+        // You can add more Error Cases.
     });
 
     describe('Success Case', () => {
@@ -26,6 +30,8 @@ describe('Basic Testing', () => {
                 expect('Success').to.equal(successMessage);
             }, noop);
         });
+
+        // You can add more Success Cases.
     });
 
 });

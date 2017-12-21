@@ -10,10 +10,11 @@ This gives basic methods to write test cases.
 [SinonJs](http://sinonjs.org/) is a standalone library for test spies, stubs and mocks for JavaScript. Works with any unit testing framework.
 
 ## Installation
-Use below command to install Mocha, Chai and Sinon Module and these modules are need to be installed as Dev Dependencies, because its not required when application running in the server but during build.
+Use below any one command to install Mocha, Chai and Sinon Module and these must to be installed as Dev Dependencies modules, because it’s not required when application running in the server but during build.
 
 ```
 $ npm i -D mocha chai sinon
+            or
 $ npm install mocha chai sinon --save-dev
 ```
 
