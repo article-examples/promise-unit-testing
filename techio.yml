@@ -10,6 +10,9 @@ plan:
   statement: docs/async.md
 
 projects:
+  examples:
+    root: /examples
+    runner: techio/node-npm-runner
   snippets:
     root: /snippets
     runner: techio/node-npm-runner
