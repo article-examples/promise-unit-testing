@@ -6,7 +6,7 @@ plan:
   statement: docs/tools.md
 - title: Simple Unit Testing
   statement: docs/simple.md
-- title: Unit Testing with Services
+- title: Unit Testing with Dependent Files
   statement: docs/service.md
 - title: Unit Testing with Async.js
   statement: docs/async.md
