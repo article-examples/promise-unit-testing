@@ -5,5 +5,7 @@
     
     serviceResponse.then((msg) => {
         console.log(`Hello Message is ${msg}`);
+    }, () => {
+        console.log('oops! its rejected');
     });
 }());

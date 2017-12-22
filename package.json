@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "test1": "mocha examples/basic/basicTest.js",
     "test": "nyc mocha examples/**/*Test.js",
     "coverage": "nyc report --reporter=html"
   },

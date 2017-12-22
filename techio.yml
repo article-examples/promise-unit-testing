@@ -6,12 +6,23 @@ plan:
   statement: docs/tools.md
 - title: Simple Unit Testing
   statement: docs/simple.md
-- title: Async.js Unit Testing
+- title: Unit Testing with Services
+  statement: docs/service.md
+- title: Unit Testing with Async.js
   statement: docs/async.md
 
 projects:
   examples:
     root: /examples
+    runner: techio/node-npm-runner
+  basic:
+    root: /examples/basic
+    runner: techio/node-npm-runner
+  async:
+    root: /examples/async
+    runner: techio/node-npm-runner
+  db:
+    root: /examples/db
     runner: techio/node-npm-runner
   snippets:
     root: /snippets
